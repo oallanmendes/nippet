@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "dev": "ts-node-transpile-only src/server.ts",
+    "dev": "nodemon",
     "build": "npx rimraf -rf dist && yarn tsc && node dist/server.js"
   },
   "devDependencies": {
@@ -13,6 +13,7 @@
     "eslint-import-resolver-typescript": "^3.6.3",
     "eslint-plugin-import": "^2.31.0",
     "eslint-plugin-prettier": "^5.2.1",
+    "nodemon": "^3.1.7",
     "prettier": "^3.3.3",
     "ts-node": "^10.9.2",
     "typescript": "^5.6.3"
